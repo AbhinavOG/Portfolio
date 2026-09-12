@@ -2,7 +2,7 @@
 
 My personal developer portfolio, built to showcase who I am, what I know, and what I'm working toward as a Computer Science & Engineering student with a Cyber Security pathway.
 
-**Live site:** [abhinav.qzd.je](https://abhinav.qzd.je)
+
 
 ## About
 

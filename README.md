@@ -31,6 +31,6 @@ All page content — bio, skills, education, links — lives in `lib/site.ts`. U
 
 ## Contact
 
-- Email: [abhinav.cse17@gmail.com](mailto:abhinav.cse17@gmail.com)
+- Email: [@abhinav.cse17@gmail.com](mailto:abhinav.cse17@gmail.com)
 - GitHub: [@AbhinavOG](https://github.com/AbhinavOG)
-- LinkedIn: [/in/abhinavog](https://linkedin.com/in/abhinavog/)
+- LinkedIn: [@abhinavog](https://linkedin.com/in/abhinavog/)

@@ -4,6 +4,13 @@ A personal developer portfolio for Abhinav Kumar — final-year Diploma student 
 
 Built with **Next.js (App Router)**, **React**, **TypeScript**, **Tailwind CSS v4**, and **shadcn/ui**-style components. Deployable as a fully static site on Vercel.
 
+<details>
+<summary>Live site</summary>
+
+[abhinavog.netlify.app](https://abhinavog.netlify.app)
+
+</details>
+
 ## Pages
 
 | Route  | Purpose                                                                 |

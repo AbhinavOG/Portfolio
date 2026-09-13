@@ -24,9 +24,6 @@ export function Learning() {
                     className="absolute -left-[31px] top-1.5 size-2.5 rounded-full border border-primary bg-primary/30"
                   />
                   <p className="text-base font-medium">{thread}</p>
-                  <p className="mt-0.5 text-sm text-muted-foreground">
-                    Studied in my own time, at my own pace.
-                  </p>
                 </li>
               ))}
             </ol>

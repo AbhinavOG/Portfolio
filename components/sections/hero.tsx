@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Mail } from "lucide-react";
 
 import { GithubIcon, LinkedInIcon } from "@/components/brand-icons";
@@ -30,10 +29,10 @@ export function Hero() {
               </a>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="#projects">
+              <a href={links.github} target="_blank" rel="noreferrer">
                 <GithubIcon className="size-4" />
-                See my work
-              </Link>
+                GitHub
+              </a>
             </Button>
             <Button asChild variant="outline" size="lg">
               <a href={links.linkedin} target="_blank" rel="noreferrer">

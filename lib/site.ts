@@ -117,11 +117,42 @@ export const projects: Project[] = [];
 export interface Certificate {
   title: string;
   issuer: string;
-  year?: string;
-  credentialUrl?: string;
+  image: string;
 }
 
-export const certificates: Certificate[] = [];
+// Real, verified certificates only — added as they are earned.
+export const certificates: Certificate[] = [
+  {
+    title: "Cyber Security and Applied Ethical Hacking",
+    issuer: "Infosys Springboard",
+    image: "/certificates/cyber-security-and-applied-ethical-hacking.png",
+  },
+  {
+    title: "AI & Robotics Workshop",
+    issuer: "Reboot Robotics Academy",
+    image: "/certificates/ai-and-robotics-workshop.png",
+  },
+  {
+    title: "Talent Test",
+    issuer: "Vidya Soudha PU College",
+    image: "/certificates/talent-test.png",
+  },
+  {
+    title: "ASSET (Assessment of Scholastic Skills through Educational Testing)",
+    issuer: "Mother Teresa Composite PU College",
+    image: "/certificates/asset-scholastic-skills.png",
+  },
+  {
+    title: "Cyber Security Awareness and Attacks Workshop",
+    issuer: "Ramaiah Institute of Technology",
+    image: "/certificates/cyber-security-awareness-and-attacks-workshop.png",
+  },
+  {
+    title: "International Tech Fest - InnovateX 4.0",
+    issuer: "Precidency University",
+    image: "/certificates/international-tech-fest-innovatex-4-0.png",
+  },
+];
 
 export const resume = {
   available: false, // no real resume file provided yet — keeps the UI honest

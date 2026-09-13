@@ -110,9 +110,33 @@ export interface Project {
   live?: string;
 }
 
-// No projects exist yet — intentionally empty. The Projects section renders a
-// designed "coming soon" state and this array simply becomes the grid later.
-export const projects: Project[] = [];
+// Real projects only — no placeholders, no broken links.
+// A project is shown without a Live button when it has no live URL.
+export const projects: Project[] = [
+  {
+    title: "Personal Portfolio",
+    description:
+      "This site — a Next.js portfolio with a fully data-driven content layer and an honest, no-fake-content policy.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/AbhinavOG/Portfolio",
+    live: "https://portfolio-five-taupe-97.vercel.app",
+  },
+  {
+    title: "Username Generator",
+    description:
+      "Describe what you want in plain English and get 20 relevant username suggestions back instantly — no accounts, no tracking.",
+    tags: ["Node.js", "Express", "JavaScript"],
+    github: "https://github.com/AbhinavOG/username-generator",
+  },
+  {
+    title: "Focus — To-Do List",
+    description:
+      "A calm, minimal to-do list — inline editing, filters, a live progress bar, and localStorage persistence.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/AbhinavOG/TODO-List",
+    live: "https://abhinavog.github.io/TODO-List/",
+  },
+];
 
 export interface Certificate {
   title: string;

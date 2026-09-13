@@ -1,6 +1,5 @@
 import { FolderGit2, Rocket } from "lucide-react";
 
-import { GithubIcon } from "@/components/brand-icons";
 import { projects } from "@/lib/site";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
@@ -12,7 +11,7 @@ export function Projects() {
       <SectionHeading
         eyebrow="Projects"
         title="Things I've built"
-        description="Real, working projects — source on GitHub, live demos where one exists."
+        description="Real, working projects — code on GitHub, one click away."
       />
 
       <Reveal delayMs={120}>
@@ -45,20 +44,12 @@ export function Projects() {
                   </div>
                 </div>
                 <div className="flex shrink-0 flex-wrap items-center gap-2 sm:flex-nowrap">
-                  <Button asChild variant="outline" size="sm">
+                  <Button asChild size="sm">
                     <a href={project.github} target="_blank" rel="noreferrer">
-                      <GithubIcon className="size-4" />
-                      GitHub
+                      <Rocket className="size-4" aria-hidden="true" />
+                      Live
                     </a>
                   </Button>
-                  {project.live && (
-                    <Button asChild size="sm">
-                      <a href={project.live} target="_blank" rel="noreferrer">
-                        <Rocket className="size-4" aria-hidden="true" />
-                        Live
-                      </a>
-                    </Button>
-                  )}
                 </div>
               </div>
             </li>

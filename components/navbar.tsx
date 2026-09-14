@@ -28,9 +28,14 @@ export function Navbar() {
           >
             {site.monogram}
           </span>
-          <span className="hidden sm:inline">
-            {site.shortName.toUpperCase()}
-            <span className="ml-1 font-mono text-[0.8em] text-primary">&lt;/&gt;</span>
+          <span className="flex flex-col leading-tight">
+            <span className="hidden sm:inline">
+              {site.shortName.toUpperCase()}
+              <span className="ml-1 font-mono text-[0.8em] text-primary">&lt;/&gt;</span>
+            </span>
+            <span className="font-mono text-[0.65rem] text-muted-foreground">
+              Bhai, Yahan sab SORTED hai
+            </span>
           </span>
         </Link>
 

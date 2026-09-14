@@ -179,7 +179,9 @@ export const certificates: Certificate[] = [
 ];
 
 export const resume = {
-  available: false, // no real resume file provided yet — keeps the UI honest
+  available: true,
+  file: "/resume/abhinav-kumar-resume.pdf",
+  filename: "Abhinav-Kumar-Resume.pdf",
 };
 
 export const education = {

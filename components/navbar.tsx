@@ -31,9 +31,9 @@ export function Navbar() {
           <span className="flex flex-col leading-tight">
             <span className="hidden sm:inline">
               {site.shortName.toUpperCase()}
-              <span className="ml-1 font-mono text-[0.8em] text-primary">&lt;/&gt;</span>
+              <span className="ml-1 font-mono text-xs text-primary">&lt;/&gt;</span>
             </span>
-            <span className="font-mono text-[0.65rem] text-muted-foreground">
+            <span className="font-mono text-xs text-muted-foreground">
               Bhai, Yahan sab SORTED hai
             </span>
           </span>

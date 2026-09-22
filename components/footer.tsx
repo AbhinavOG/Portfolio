@@ -14,7 +14,7 @@ export function Footer() {
     <footer className="border-t border-border/70">
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-6 px-5 py-10 text-center sm:flex-row sm:justify-between sm:px-8 sm:text-left">
         <div>
-          <p className="text-sm font-semibold">{site.name}</p>
+          <p className="text-sm leading-tight font-semibold">{site.name}</p>
           <p className="mt-0.5 text-sm text-muted-foreground">{footerSignature}</p>
         </div>
 

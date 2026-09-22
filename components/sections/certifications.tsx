@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Award, Eye, X } from "lucide-react";
+import { Award, ChevronRight, Eye, X } from "lucide-react";
 
 import { certificates, type Certificate } from "@/lib/site";
 import { Reveal } from "@/components/reveal";
@@ -44,7 +44,7 @@ export function Certifications() {
                 type="button"
                 onClick={() => setPreview(cert)}
                 aria-label={`Preview certificate: ${cert.title}`}
-                className="group flex w-full items-center gap-4 py-6 pl-2 pr-2 text-left transition-[padding-left] duration-200 hover:pl-4 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring sm:gap-5"
+                className="group flex w-full flex-col items-start gap-4 py-6 pl-2 pr-2 text-left transition-[padding-left] duration-200 hover:pl-4 hover:bg-accent/40 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring sm:flex-row sm:items-center sm:gap-5"
               >
                 <span
                   aria-hidden="true"
@@ -58,11 +58,15 @@ export function Certifications() {
                 </span>
                 <span
                   aria-hidden="true"
-                  className="inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border border-primary/30 px-3.5 py-1.5 font-mono text-xs text-primary transition-colors duration-200 group-hover:bg-primary/10"
+                  className="inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-primary px-3.5 py-1.5 font-mono text-xs text-primary-foreground"
                 >
                   <Eye className="size-3.5" />
                   Preview
                 </span>
+                <ChevronRight
+                  aria-hidden="true"
+                  className="size-4 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
+                />
               </button>
             </li>
           ))}

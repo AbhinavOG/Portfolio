@@ -9,10 +9,10 @@ export function Hero() {
     <section id="top" className="mx-auto w-full max-w-6xl px-5 pb-16 pt-14 sm:px-8 md:pb-24 md:pt-20">
       <div className="grid items-center gap-12 lg:grid-cols-[1fr_320px]">
         <div className="max-w-2xl">
-          <p className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-            diploma · cse · cyber security
+          <p className="font-mono text-xs font-semibold tracking-[0.2em] text-primary">
+            Diploma · CSE · Cyber Security
           </p>
-          <h1 className="mt-5 text-5xl font-semibold tracking-tight text-balance sm:text-6xl md:text-7xl">
+          <h1 className="mt-5 text-5xl font-semibold tracking-tight text-balance sm:text-6xl">
             {site.name.toUpperCase()}
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
@@ -49,15 +49,15 @@ export function Hero() {
           <div className="rounded-3xl border border-border bg-card p-8 shadow-sm transition-transform duration-300 hover:-translate-y-1">
             <div
               className={
-                "mx-auto grid size-40 place-items-center rounded-2xl border border-primary/30 bg-primary/10 " +
-                "font-mono text-5xl font-bold text-primary"
+                "mx-auto grid size-28 place-items-center rounded-2xl border border-primary/30 bg-primary/10 " +
+                "font-mono text-3xl font-bold text-primary"
               }
               role="img"
               aria-label="Abhinav Kumar avatar placeholder"
             >
               {site.monogram}
             </div>
-            <dl className="mt-6 space-y-4 border-t border-border pt-6 text-sm">
+            <dl className="mt-6 space-y-4 border-t border-border pt-6 text-base">
               <div>
                 <dt className="text-muted-foreground">Course</dt>
                 <dd className="mt-0.5 font-medium">CSE · Cyber Security</dd>

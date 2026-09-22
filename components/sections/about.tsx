@@ -10,9 +10,9 @@ export function About() {
       <div className="mx-auto w-full max-w-6xl px-5 py-20 sm:px-8 md:py-28">
         <SectionHeading eyebrow="About me" title="Curious about the why, not just the how" />
 
-        <div className="mt-10 grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
+        <div className="mt-10 grid gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>
-            <p className="max-w-xl font-mono text-lg leading-relaxed text-foreground">
+            <p className="max-w-xl text-lg font-medium leading-relaxed text-foreground">
               {lede}
             </p>
           </Reveal>
@@ -37,7 +37,7 @@ export function About() {
               {about.focusAreas[0].items.map((item) => (
                 <li
                   key={item}
-                  className="bg-background p-6 transition-colors duration-200 hover:bg-accent/40"
+                  className="bg-background p-6"
                 >
                   <span className="text-sm font-medium leading-snug text-balance">{item}</span>
                 </li>

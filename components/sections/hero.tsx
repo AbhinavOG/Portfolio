@@ -47,17 +47,7 @@ export function Hero() {
             Swap the inner block for a real <Image> when a photo exists. */}
         <div className="hidden lg:block">
           <div className="rounded-3xl border border-border bg-card p-8 shadow-sm transition-transform duration-300 hover:-translate-y-1">
-            <div
-              className={
-                "mx-auto grid size-28 place-items-center rounded-2xl border border-primary/30 bg-primary/10 " +
-                "font-mono text-3xl font-bold text-primary"
-              }
-              role="img"
-              aria-label="Abhinav Kumar avatar placeholder"
-            >
-              {site.monogram}
-            </div>
-            <dl className="mt-6 space-y-4 border-t border-border pt-6 text-base">
+            <dl className="space-y-4 text-base">
               <div>
                 <dt className="text-muted-foreground">Course</dt>
                 <dd className="mt-0.5 font-medium">CSE · Cyber Security</dd>
